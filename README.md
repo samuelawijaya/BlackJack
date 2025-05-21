@@ -1,4 +1,11 @@
-# BlackJack
+# ♠️ BlackJack
+
+[![Language](https://img.shields.io/badge/Language-Verilog-00599C?style=for-the-badge&logo=verilog&logoColor=white)](https://en.wikipedia.org/wiki/Verilog)
+[![Platform](https://img.shields.io/badge/Platform-DE1--SoC%20FPGA-0078D7?style=for-the-badge)](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=139&No=836)
+[![Display](https://img.shields.io/badge/Output-VGA-8B008B?style=for-the-badge)]()
+[![Input](https://img.shields.io/badge/Input-Pushbuttons%20%2F%20Switches-556B2F?style=for-the-badge)]()
+[![Game](https://img.shields.io/badge/Game-Blackjack-000000?style=for-the-badge)]()
+
 ## By Pasha & Samuel
 
 A hardware-based **Blackjack game** implemented entirely in **Verilog** and deployed to an **FPGA** with a **VGA output**. Designed with a finite state machine and hardware-based randomness.
@@ -49,6 +56,9 @@ The core logic includes a custom VGA controller, FSM-driven game flow, flip-flop
 | **LFSR**         | Generates random card values (1–10) |
 | **VGA module**   | Drives red/green/blue and sync signals based on active pixel position |
 
-![Gameplay Screenshot](https://drive.google.com/file/d/1BJo1W-4CRYRqywZwyJ_73HXA0OJS61hF/view?usp=sharing)
+
+## 📷 Gameplay Screenshot
+![Gameplay Screenshot](gameplay.jpeg)
+![Gameplay Screenshot](gameplay2.jpeg)
 
 ---
